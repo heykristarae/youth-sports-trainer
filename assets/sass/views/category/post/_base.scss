@@ -1,0 +1,58 @@
+//
+// Blog post
+////////////
+
+.category {
+
+  .content {
+    margin-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: none !important;
+    width: 100% !important;
+
+    @media only screen and (max-width: 768px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  article {
+    background-color: #f2f2f2;
+    font-family: $secondary-font-family;
+    @include rem(font-size, 16px);
+    float: left;
+    line-height: 2;
+    margin-bottom: 70px;
+    min-height: 297px;
+    padding-top: 28px;
+    padding-bottom: 24px;
+    width: 58%;
+
+    @media only screen and (max-width: 1240px) {
+      clear: both;
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 100%;
+      min-height: 0;
+      width: 740px;
+    }
+
+    &:last-of-type {
+      margin-bottom: 30px;
+    }
+
+    .entry-content {
+      margin-top: 50px;
+
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .read-more {
+    display: none;
+  }
+}

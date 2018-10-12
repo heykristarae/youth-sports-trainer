@@ -1,0 +1,28 @@
+//
+// Read more link
+////////////////////
+
+.read-more {
+  text-align: right;
+}
+
+.more-link {
+  color: $white;
+  background-color: $dark-blue;
+  display: inline-block;
+  font-family: $secondary-font-family;
+  @include rem( font-size, 20px );
+  line-height: 1;
+  padding: 14px 27px 12px;
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 336px;
+  max-width: 100%;
+
+  &:hover,
+  &:focus {
+    background-color: $orange;
+    color: $white;
+  }
+}

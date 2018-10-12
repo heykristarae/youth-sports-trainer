@@ -1,0 +1,40 @@
+/* ## Site Containers
+--------------------------------------------- */
+
+.wrap {
+  margin: 0 auto;
+  max-width: $max-width;
+
+  @media only screen and (max-width: $large-screen) {
+    max-width: $max-width-large-screen;
+  }
+
+  @media only screen and (max-width: $medium-screen) {
+    max-width: $max-width-medium-screen;
+  }
+}
+
+.site-inner {
+  clear: both;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-bottom: 60px;
+  word-wrap: break-word;
+  width: 1224px;
+  max-width: 100%;
+
+  @media only screen and (max-width: $small-screen) {
+    padding: 20px 20px 0;
+  }
+}
+
+.wrap {
+  @media only screen and (max-width: $small-screen) {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.landing-page .site-inner {
+  max-width: $max-width-medium-screen;
+}

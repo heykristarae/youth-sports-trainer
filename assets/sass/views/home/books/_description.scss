@@ -1,0 +1,9 @@
+//
+// Books description
+///////////////////////////
+
+.home-book-row .book-description {
+  font-family: $secondary-font-family;
+  @include rem( font-size, 27px );
+  line-height: 1.3;
+}

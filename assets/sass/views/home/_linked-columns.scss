@@ -1,0 +1,76 @@
+//
+// Linked column sections
+//////////////////////////////////
+
+.linked-columns {
+
+  .fl-col:hover {
+    & > .fl-col-content:after {
+      background-color: rgba(0, 0, 0, .4);
+    }
+
+    h3.fl-heading:before {
+      background-color: rgba(0, 0, 0, .4);
+    }
+  }
+
+  .fl-module {
+    position: relative;
+  }
+
+  .fl-module-content {
+    margin: 0;
+    padding: 350px 20px;
+
+    @media only screen and (max-width: 600px) {
+      padding: 250px 20px;
+    }
+  }
+
+  h3.fl-heading {
+    border: 1px solid #fff;
+    font-family: $secondary-font-family;
+    font-style: normal;
+    max-width: 90%;
+    padding-bottom: 8px !important;
+    padding-top: 8px !important;
+    position: absolute;
+    text-transform: uppercase;
+    width: 257px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 257px;
+      height: 67px;
+      left: -1px;
+      top: -1px;
+
+      @media only screen and (max-width: 768px) {
+        height: 62px;
+      }
+
+      @media only screen and (max-width: 450px) {
+        height: 103%;
+      }
+    }
+
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+
+  .fl-module-heading.fl-module .fl-heading {
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .fl-col-small {
+      max-width: 100%;
+    }
+  }
+}

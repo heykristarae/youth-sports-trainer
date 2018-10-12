@@ -1,0 +1,66 @@
+//
+// Category hero section
+////////////////////////////
+
+.category-hero {
+  margin-top: 90px;
+  position: relative;
+
+  @media only screen and (max-width: 860px) {
+    margin-top: 20px;
+  }
+
+  img {
+    width: 83%;
+
+    @media only screen and (max-width: 860px) {
+      width: 100%;
+    }
+  }
+
+  h3 {
+    font-family: $secondary-font-family;
+    @include rem( font-size, 48px );
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 53%;
+
+    @media only screen and (max-width: 1300px ) {
+      padding-right: 10px;
+    }
+
+    @media only screen and (max-width: 1130px) {
+      @include rem( font-size, 38px );
+      top: 30px;
+    }
+
+    @media only screen and (max-width: 860px) {
+      background: rgba(255, 255, 255, .8);
+      padding: 15px;
+      text-align: center;
+      bottom: 20px;
+      top: auto;
+      right: auto;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+    }
+
+    @media only screen and (max-width: 700px) {
+      @include rem( font-size, 30px );
+    }
+
+    @media only screen and (max-width: 500px) {
+      background: none;
+      bottom: auto;
+      left: auto;
+      position: relative;
+      transform: none;
+      width: 100%;
+    }
+  }
+}

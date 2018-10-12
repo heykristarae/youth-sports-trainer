@@ -1,0 +1,33 @@
+//
+// Green background section
+////////////////////////////
+
+.about-green-background {
+  color: $white;
+  font-family: $secondary-font-family;
+  @include rem( font-size, 30px );
+  font-weight: 600;
+  line-height: 1.8;
+  text-transform: uppercase;
+
+  @media only screen and (max-width: 1000px) {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 50px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    @include rem( font-size, 25px );
+  }
+
+  @media only screen and (max-width: 450px) {
+    @include rem( font-size, 20px );
+  }
+
+  &.fl-row-fixed-width {
+    max-width: 985px !important;
+  }
+}

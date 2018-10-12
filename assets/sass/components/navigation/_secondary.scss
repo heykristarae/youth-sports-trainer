@@ -1,0 +1,15 @@
+/* ## Secondary Navigation
+--------------------------------------------- */
+
+.nav-secondary {
+  background-color: $secNav--background-color;
+  border-top: 1px solid $secNav--border-color;
+
+  a {
+    color: $secNav--linkColor;
+
+    &:hover, &:focus {
+      color: $secNav--link-hover-color;
+    }
+  }
+}

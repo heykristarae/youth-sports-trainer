@@ -1,0 +1,36 @@
+//
+// Hero section
+//////////////////
+
+.fl-builder .parents-hero {
+  .fl-row-fixed-width {
+    max-width: 1110px !important;
+  }
+
+  @media only screen and (max-width: 1130px) {
+    & > .fl-row-content-wrap {
+      padding-top: 40px;
+      padding-bottom: 300px;
+      background-size: contain;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .fl-row-content-wrap {
+      padding-top: 43px !important;
+      padding-bottom: 222px !important;
+    }
+  }
+
+  @media only screen and (max-width: 460px) {
+    .fl-row-content-wrap {
+      padding-bottom: 175px !important;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .fl-row-content-wrap {
+      padding-bottom: 145px !important;
+    }
+  }
+}

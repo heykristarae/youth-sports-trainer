@@ -1,0 +1,28 @@
+//
+// Books
+////////////
+
+.sidebar .books {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 256px;
+
+  img{
+    margin-bottom: 5px;
+  }
+
+  .button {
+    @include rem( font-size, 36px );
+    font-weight: 600;
+    line-height: 1;
+    padding: 10px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}

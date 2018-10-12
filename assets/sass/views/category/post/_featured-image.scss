@@ -1,0 +1,16 @@
+//
+// Featured image
+/////////////////////
+
+.category .entry-image-link {
+  float: left;
+  width: 42%;
+
+  @media only screen and (max-width: 1240px) {
+    width: 100%;
+
+    img {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+//
+// Resource name
+//////////////////
+
+.about-resource-title h3 {
+  font-family: $secondary-font-family;
+  @include rem( font-size, 34px );
+  font-weight: bold;
+  font-style: normal;
+  line-height: 1;
+
+  @media only screen and (max-width: 890px) {
+    @include rem( font-size, 29px );
+    margin-bottom: 0;
+  }
+}

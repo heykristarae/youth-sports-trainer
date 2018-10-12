@@ -1,0 +1,16 @@
+//
+// Entry title
+//////////////
+
+.single-post.full-width-content .entry-title {
+    font-weight: 600;
+    @include rem( font-size, 34px );
+
+    @media only screen and (max-width: 600px) {
+      @include rem( font-size, 32px );
+    }
+
+    @media only screen and (max-width: 450px) {
+      @include rem( font-size, 30px );
+    }
+}

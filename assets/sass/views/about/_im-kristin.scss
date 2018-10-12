@@ -1,0 +1,18 @@
+//
+// I'm Kristin section
+////////////////////////
+
+.about-h2 h2 {
+  @include rem( font-size, 30px );
+  font-weight: 600;
+}
+
+.about-h3 h3 {
+  @include rem( font-size, 20px );
+  font-weight: bold;
+  line-height: 1.7;
+}
+
+.about-im-kristin.fl-row-fixed-width {
+  max-width: 963px !important;
+}

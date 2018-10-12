@@ -1,0 +1,21 @@
+//
+// Featured book title
+////////////////////////
+
+.featured-book h3 {
+  color: $dark-blue;
+  font-family: $secondary-font-family;
+  @include rem( font-size, 48px );
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1.05;
+  margin-bottom: 27px;
+
+  @media only screen and (max-width: 600px) {
+    @include rem( font-size, 36px );
+  }
+
+  @media only screen and (max-width: 450px) {
+    @include rem( font-size, 32px );
+  }
+}

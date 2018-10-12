@@ -1,0 +1,31 @@
+//
+// Background images
+////////////////////////
+
+.background-image .site-inner,
+.category .site-container {
+  background-image: url(assets/images/background.jpg);
+  background-size: contain;
+  background-repeat: repeat-y;
+
+  @media only screen and (max-width: 1300px) {
+    background-image: none;
+  }
+}
+
+.page-id-41.background-image {
+
+  .site-inner {
+    background: none;
+  }
+
+  .site-container {
+    background-image: url(assets/images/background.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+
+    @media only screen and (max-width: 1300px) {
+      background-image: none;
+    }
+  }
+}

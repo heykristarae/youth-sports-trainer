@@ -1,0 +1,33 @@
+//
+// Hero section
+//////////////////
+
+.fl-builder .about-hero > .fl-row-content-wrap {
+
+  @media only screen and (max-width: 1000px) {
+    background-position: bottom;
+    background-size: contain !important;
+    padding-bottom: 424px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding-bottom: 340px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding-bottom: 260px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    padding-bottom: 230px;
+  }
+
+  @media only screen and (max-width: 420px) {
+    padding-bottom: 190px;
+  }
+
+  @media only screen and (max-width: 350px) {
+    padding-bottom: 150px;
+  }
+
+}

@@ -1,0 +1,19 @@
+//
+// Simple Social Icons
+///////////////////////////
+
+body .simple-social-icons {
+
+  ul li {
+    margin: 0 1px 12px !important;
+
+    a {
+      padding: 6px;
+
+      &:hover,
+      &:focus {
+        padding: 6px;
+      }
+    }
+  }
+}

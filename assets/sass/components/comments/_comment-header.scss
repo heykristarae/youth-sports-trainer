@@ -1,0 +1,19 @@
+//
+// Comment header
+//=========================
+
+.comment-header {
+  margin-bottom: 30px;
+
+  @media only screen and (max-width: 500px) {
+
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.entry-comments h3 {
+  display: none;
+}

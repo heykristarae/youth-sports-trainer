@@ -1,0 +1,62 @@
+//
+// Kristin's title
+/////////////////////
+
+.about-title {
+  background-color: $orange;
+  box-shadow: -14px -14px 0 0 $dark-blue;
+  font-family: $secondary-font-family;
+  line-height: 1.2;
+  margin-top: 75px;
+
+  .name {
+    @include rem( font-size, 36px );
+    font-weight: bold;
+
+    @media only screen and (max-width: 1400px) {
+      @include rem( font-size, 32px );
+    }
+
+    @media only screen and (max-width: 600px) {
+      @include rem( font-size, 27px );
+    }
+
+    @media only screen and (max-width: 450px) {
+      @include rem( font-size, 24px );
+    }
+  }
+
+  .qualifications {
+    @include rem( font-size, 30px );
+
+    @media only screen and (max-width: 1400px) {
+      @include rem( font-size, 24px );
+    }
+
+    @media only screen and (max-width: 600px) {
+      @include rem( font-size, 21px );
+    }
+
+    @media only screen and (max-width: 500px) {
+      @include rem( font-size, 18px );
+    }
+
+    @media only screen and (max-width: 450px) {
+      @include rem( font-size, 16px );
+    }
+  }
+}
+
+.about-title-col.fl-col-small {
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+    max-width: 599px;
+    padding-left: 35px;
+    padding-right: 20px;
+
+    .fl-col-content {
+      padding-top: 70px;
+      padding-bottom: 60px;
+    }
+  }
+}

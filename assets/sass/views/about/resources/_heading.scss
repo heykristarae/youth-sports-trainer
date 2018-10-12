@@ -1,0 +1,20 @@
+//
+// Resources section heading
+////////////////////////////
+
+.about-check-out-resources h2 {
+  @include rem( font-size, 48px );
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 880px;
+
+  @media only screen and (max-width: 600px) {
+    @include rem( font-size, 36px );
+  }
+
+  @media only screen and (max-width: 450px) {
+    @include rem( font-size, 32px );
+  }
+}

@@ -1,0 +1,23 @@
+//
+// Author
+/////////////
+
+.post-author {
+  color: $dark-blue;
+  font-family: $secondary-font-family;
+  @include rem( font-size, 13px );
+  font-weight: 700;
+  padding-left: 3px;
+  width: 65%;
+  float: left;
+
+  .author-title {
+    font-weight: 600;
+  }
+
+  @media only screen and (max-width: 768px) {
+    float: none;
+    padding-right: 3px;
+    width: 100%;
+  }
+}

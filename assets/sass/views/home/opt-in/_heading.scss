@@ -1,0 +1,19 @@
+//
+// Home opt-in heading
+///////////////////////
+
+.home-optin-heading {
+  color: $white;
+  font-family: $secondary-font-family;
+  @include rem( font-size, 39px );
+  font-weight: 600;
+  text-transform: uppercase;
+
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 450px) {
+    @include rem( font-size, 32px );
+  }
+}

@@ -1,0 +1,14 @@
+//
+// Blog base styles
+////////////////////
+
+.blog {
+  .posts-page-description {
+    display: none;
+  }
+
+  .content article:last-of-type {
+    margin-bottom: 37px;
+    padding-bottom: 0;
+  }
+}

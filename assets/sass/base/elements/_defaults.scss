@@ -1,0 +1,55 @@
+/* ## Typographical Elements
+--------------------------------------------- */
+
+
+a,
+button,
+input:focus,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+textarea:focus,
+.button,
+.gallery img {
+  transition: all 0.1s ease-in-out;
+}
+
+a {
+  color: $link--color;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    color: $link--hover-color;
+    text-decoration: none;
+  }
+}
+
+p {
+  margin: 0 0 48px;
+  padding: 0;
+}
+
+.large-line-height,
+large-line-height p {
+  line-height: 2;
+}
+
+hr {
+  border: 0;
+  border-collapse: collapse;
+  border-top: 1px solid $hr--border-color;
+  clear: both;
+  margin: 1em 0;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+cite,
+em,
+i {
+  font-style: italic;
+}

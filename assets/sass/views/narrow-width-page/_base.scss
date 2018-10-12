@@ -1,0 +1,14 @@
+//
+// Narrow width page
+/////////////////////////
+
+.narrow-width {
+  .site-inner {
+    max-width: 100%;
+    width: 838px;
+  }
+
+  .content {
+    max-width: 100% !important;
+  }
+}

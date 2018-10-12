@@ -1,0 +1,21 @@
+//
+// Homepage post title
+/////////////////////////
+
+.home-posts .fl-post-grid-title {
+  font-family: $base--font-family;
+  @include rem( font-size, 27px );
+  font-weight: bold;
+  line-height: 1.15;
+  margin-bottom: 30px !important;
+  text-align: center;
+
+  a {
+    color: $black;
+
+    &:focus,
+    &:hover {
+      color: $orange;
+    }
+  }
+}

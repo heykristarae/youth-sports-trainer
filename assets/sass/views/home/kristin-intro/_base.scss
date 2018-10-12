@@ -1,0 +1,15 @@
+//
+// Kristin intro
+/////////////////
+
+.kristin-intro .fl-row-content.fl-row-fixed-width {
+  max-width: 1035px !important;
+
+  @media only screen and (max-width: 1080px) {
+    padding-left: 20px;
+  }
+
+  @media only screen and (max-width:  768px) {
+    padding-right: 20px;
+  }
+}

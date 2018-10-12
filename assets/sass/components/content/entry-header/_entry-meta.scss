@@ -1,0 +1,23 @@
+//
+// Entry header meta
+//======================
+
+.entry-header {
+  .entry-meta {
+    display: none;
+  }
+
+  .entry-categories,
+  .entry-tags {
+    display: block;
+  }
+
+  .entry-comments-link::before {
+    content: "\2014";
+    margin: 0 6px 0 2px;
+  }
+
+  & > p {
+    margin-bottom: 0;
+  }
+}

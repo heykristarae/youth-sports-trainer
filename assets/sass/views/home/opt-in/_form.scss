@@ -1,0 +1,23 @@
+//
+// Home opt-in form
+///////////////////////
+
+.fl-builder .home-optin-form {
+  .fl-subscribe-form {
+    .fl-form-field {
+      margin-bottom: 10px;
+
+      input[type="text"],
+      input[type="email"] {
+        border: none;
+        background-color: #b7b7b7;
+        @include rem(font-size, 14px);
+        padding: 8px 15px;
+      }
+    }
+    a.fl-button {
+      @include rem( font-size, 21px );
+      padding: 13px;
+    }
+  }
+}

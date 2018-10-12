@@ -1,0 +1,29 @@
+//
+// Hero yellow background
+////////////////////////////
+
+.parents-hero .hero-yellow-background {
+  box-shadow: -16px -16px 0 0 $green;
+  float: right;
+  margin-right: -120px;
+  max-width: 100%;
+  width: 652px;
+
+  @media only screen and (max-width: 1400px) {
+    margin-right: 0;
+  }
+
+  @media only screen and (max-width: 1130px) {
+    width: 563px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    float: none;
+    max-width: 90%;
+    //box-shadow: -20px -16px 0 0 $green;
+    box-shadow: none;
+    border: 10px solid $green;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}

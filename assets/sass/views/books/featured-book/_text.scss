@@ -1,0 +1,19 @@
+//
+// Featured book
+////////////////
+
+.featured-book-text {
+  background-color: $white;
+  box-shadow: -16px -14px 0 0 $light-blue;
+  font-family: $secondary-font-family;
+  @include rem( font-size, 29px );
+  line-height: 1.25;
+
+  @media only screen and (max-width: 600px) {
+    @include rem( font-size, 27px );
+  }
+
+  @media only screen and (max-width: 450px) {
+    @include rem( font-size, 23px );
+  }
+}

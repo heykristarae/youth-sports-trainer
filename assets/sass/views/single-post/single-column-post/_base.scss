@@ -1,0 +1,14 @@
+//
+// Single/Narrow column post
+///////////////////////////////
+
+.single-post.full-width-content {
+  .site-inner {
+    max-width: 100%;
+    width: 838px;
+  }
+
+  .content {
+    max-width: 100% !important;
+  }
+}

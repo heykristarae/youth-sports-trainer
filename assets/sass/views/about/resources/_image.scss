@@ -1,0 +1,27 @@
+//
+// Resources image
+///////////////////
+
+.about-resources-img-col.fl-col-small {
+  position: relative;
+
+  @media only screen and (max-width: 768px) {
+    width: 600px !important;
+    max-width: 100% !important;
+  }
+}
+
+.about-resource-row .fl-photo-content {
+  position: relative;
+
+  &:after {
+    background-color: rgba(0, 0, 0, 0.2);
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+}

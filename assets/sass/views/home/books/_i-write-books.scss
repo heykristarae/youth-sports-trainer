@@ -1,0 +1,38 @@
+//
+// I write books section
+///////////////////////////
+
+.home-i-write-books.fl-row-fixed-width {
+    max-width: 1215px !important;
+
+  .fl-row-fixed-width {
+    max-width: 1215px !important;
+  }
+}
+
+.home-my-books {
+  @include rem( font-size, 28px );
+  width: 900px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media only screen and (max-width: 600px) {
+    @include rem( font-size, 26px );
+  }
+
+  @media only screen and (max-width: 450px) {
+    @include rem( font-size, 22px );
+  }
+}
+
+.home-i-write-books-heading {
+  @include rem( font-size, 48px );
+}
+
+.home-write-books-text {
+  width: 1040px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}

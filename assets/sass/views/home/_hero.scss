@@ -1,0 +1,31 @@
+//
+// Homepage hero styles
+//======================
+
+.home-hero-text {
+  background-color: $white;
+  box-shadow: -13px -13px 0 0 #ff0000;
+  padding-left: 5px;
+  width: 354px;
+  z-index: 99;
+  max-width: 90%;
+
+  @media only screen and (max-width: 768px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+    color: $dark-blue;
+    @include rem( font-size, 34px );
+
+    @media only screen and (max-width: 400px) {
+      @include rem( font-size, 30px );
+    }
+  }
+}
+
+.home-mobile-hero .home-hero-text {
+  box-shadow: none;
+  border: 10px solid $red;
+}

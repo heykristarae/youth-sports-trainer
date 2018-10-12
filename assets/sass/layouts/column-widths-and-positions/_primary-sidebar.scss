@@ -1,0 +1,19 @@
+/* ### Primary Sidebar */
+
+.sidebar-primary {
+  float: right;
+  width: $primary-sidebar--width;
+
+  @media only screen and (max-width: $larger-screen) {
+    width: $primarySidebar--width-larger-screen;
+  }
+
+  @media only screen and (max-width: 920px) {
+    display: none;
+  }
+
+  .sidebar-content &,
+  .sidebar-sidebar-content & {
+    float: left;
+  }
+}

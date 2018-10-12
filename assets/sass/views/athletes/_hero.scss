@@ -1,0 +1,61 @@
+//
+// Hero section
+//////////////////
+
+.athletes-hero {
+  .fl-row-content-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    position: relative;
+    width: 1494px;
+  }
+
+  .fl-photo {
+    width: 70%;
+
+    @media only screen and (max-width: 1260px) {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+  }
+
+  .fl-module-heading {
+    background-color: $orange;
+    box-shadow: 15px -9px 0 0 $yellow;
+    max-width: 95%;
+    position: absolute;
+    top: 118px;
+    right: 79px;
+    width: 564px;
+
+    @media only screen and (max-width: 1260px) {
+      position: relative;
+      top: auto;
+      right: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+    }
+
+    @media only screen and (max-width: 400px) {
+      max-width: 90%;
+      box-shadow: 9px -9px 0 0 $yellow;
+    }
+  }
+
+  h2.fl-heading {
+    @include rem( font-size, 37px );
+    font-weight: 600;
+    line-height: 1.1;
+
+    @media only screen and (max-width: 600px) {
+      @include rem( font-size, 34px );
+    }
+
+    @media only screen and (max-width: 450px) {
+      @include rem( font-size, 30px );
+    }
+  }
+}

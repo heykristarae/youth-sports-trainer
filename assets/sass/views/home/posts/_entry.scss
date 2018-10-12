@@ -1,0 +1,31 @@
+//
+//  Home posts entry
+/////////////////////
+
+.home-posts {
+  .entry {
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0 !important;
+
+    .fl-post-grid-image {
+      margin-bottom: 30px;
+    }
+
+    .fl-post-grid-content {
+      font-family: $secondary-font-family;
+      font-weight: 600;
+      padding-left: 14px;
+      padding-right: 14px;
+
+      p {
+        line-height: 2;
+      }
+    }
+
+    .read-more {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+//
+// Books heading
+///////////////////////////
+
+.home-book-row .book-heading {
+  h4 {
+    @include rem( font-size, 35px );
+  }
+}

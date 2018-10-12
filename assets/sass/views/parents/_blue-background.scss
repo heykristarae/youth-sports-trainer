@@ -1,0 +1,67 @@
+//
+// Blue background section
+//////////////////////////////////
+
+.parents-blue-background.fl-row-fixed-width {
+  font-family: $secondary-font-family;
+  @include rem( font-size, 30px );
+  line-height: 1.2;
+  max-width: 1023px !important;
+
+  @media only screen and (max-width: 768px) {
+    @include rem( font-size, 27px );
+  }
+
+  @media only screen and (max-width: 450px) {
+    @include rem( font-size, 23px );
+  }
+
+  p {
+    margin-bottom: 38px;
+
+    &.bottom-p-no-margin {
+      margin-bottom: 0;
+    }
+  }
+
+  h2 {
+    @include rem( font-size, 37px );
+    font-weight: 600;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 785px;
+    max-width: 100%;
+
+    @media only screen and (max-width: 600px) {
+      @include rem( font-size, 34px );
+    }
+
+    @media only screen and (max-width: 450px) {
+      @include rem( font-size, 30px );
+    }
+  }
+
+  .parents-encouragement {
+    background-color: $green;
+    box-shadow: -14px -12px 0 0 $yellow;
+    @include rem( font-size, 37px );
+    font-weight: bold;
+    line-height: 1.4;
+    margin-left: 48px;
+    margin-right: 48px;
+
+    @media only screen and (max-width: 600px) {
+      @include rem( font-size, 34px );
+    }
+
+    @media only screen and (max-width: 450px) {
+      @include rem( font-size, 30px );
+    }
+
+    @media only screen and (max-width: 350px) {
+      @include rem( font-size, 27px );
+      margin-left: 38px;
+      margin-right: 27px;
+    }
+  }
+}

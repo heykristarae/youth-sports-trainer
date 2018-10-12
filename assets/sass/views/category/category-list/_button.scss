@@ -1,0 +1,16 @@
+//
+// Category list button
+///////////////////////
+
+.category-list .button {
+  @include rem( font-size, 20px );
+  font-weight: 400;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 100%;
+
+  &:hover,
+  &:focus {
+    opacity: .8;
+  }
+}

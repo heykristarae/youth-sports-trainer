@@ -1,0 +1,33 @@
+//
+// Red background section
+////////////////////////////
+
+.about-red-background {
+  font-family: $secondary-font-family;
+  @include rem( font-size, 21px );
+  font-weight: 600;
+  line-height: 1.55;
+
+  @media only screen and (max-width: 1400px) {
+    @include rem( font-size, 18px );
+
+    .fl-col-content {
+      margin-bottom: 39px !important;
+    }
+  }
+
+  @media only screen and (max-width: 768px ) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-red-background-large-text {
+    @include rem( font-size, 25px );
+    font-weight: bold;
+    line-height: 1.3;
+
+    @media only screen and (max-width: 1400px) {
+      @include rem( font-size, 22px );
+    }
+  }
+}

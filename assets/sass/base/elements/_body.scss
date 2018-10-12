@@ -1,0 +1,31 @@
+//
+// Body styling
+//==============
+
+html {
+  font-size: $html--font-size;
+}
+
+body {
+  background-color: $body--background-color;
+  color: $base-color;
+  font-family: $base--font-family;
+  @include rem( font-size, $base--font-size );
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  line-height: $base--line-height;
+  margin: 0;
+  /* Chro__me fix */
+
+  @media only screen and (max-width: $small-screen) {
+      @include rem( font-size, $base--font-size--small-screen );
+  }
+
+  /*> div {
+    font-size: $base__div--font-size;
+
+    @media screen and (max-width: $small-screen) {
+      font-size: $base__div--font-size--small-screen;
+    }
+  }*/
+}

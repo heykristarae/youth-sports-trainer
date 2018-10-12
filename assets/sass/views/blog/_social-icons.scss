@@ -1,0 +1,21 @@
+//
+// Social icons
+////////////////////
+
+.post-social-icons {
+  border-bottom: 1px solid $dark-blue;
+  margin-bottom: 4px;
+  text-align: right;
+
+  .addtoany_list {
+    line-height: 2.3 !important;
+
+    a {
+      line-height: 1;
+
+      img {
+        width: 22px;
+      }
+    }
+  }
+}

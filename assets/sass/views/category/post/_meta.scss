@@ -1,0 +1,23 @@
+//
+// Post meta
+/////////////
+
+.category {
+
+  .entry-header {
+    line-height: 1;
+  }
+
+  .post-author,
+  .entry-time,
+  .entry-categories {
+    color: $black;
+    display: inline;
+    font-family: $secondary-font-family;
+    @include rem( font-size, 17px );
+    font-weight: 400;
+    float: none;
+    text-align: left;
+    width: auto;
+  }
+}

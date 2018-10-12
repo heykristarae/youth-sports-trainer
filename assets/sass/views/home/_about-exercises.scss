@@ -1,0 +1,28 @@
+//
+// About and exercises section
+//////////////////////////////////
+
+.home-about-exercises {
+  h3.fl-heading {
+    background-color: $orange;
+    @include rem( font-size, 35px );
+
+    @media only screen and (max-width: 768px) {
+      @include rem( font-size, 32px );
+    }
+
+    @media only screen and (max-width: 450px) {
+      @include rem( font-size, 28px );
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .fl-col-small {
+      max-width: 100%;
+    }
+  }
+}

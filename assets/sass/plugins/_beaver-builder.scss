@@ -1,0 +1,17 @@
+/* ## Beaver Builder
+--------------------------------------------- */
+
+.fl-builder-full .site-inner {
+  max-width: none;
+  padding-top: 15px;
+  width: 100%;
+
+  @media only screen and (max-width: $small-screen) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.fl-row-fixed-width {
+  max-width: $base--width !important;
+}

@@ -1,0 +1,30 @@
+//
+// Comment content
+//======================
+
+.comment-list article {
+  border: 2px solid #f2f2f2;
+  padding: 30px;
+  width: 648px;
+  max-width: 100%;
+
+  @media only screen and (max-width: 500px) {
+    padding: 20px;
+  }
+  
+  .comment-reply{
+    text-align: right;
+  }
+
+  .comment-author {
+    font-weight: bold;
+  }
+}
+
+.comment-content {
+  clear: both;
+
+  ul > li {
+    list-style-type: disc;
+  }
+}

@@ -1,0 +1,16 @@
+//
+// About page resources base styles
+///////////////////////////////////
+
+//.about-resource-row.fl-row-fixed-width {
+//  max-width: 1160px;
+//}
+
+.about-resource-row {
+  font-family: $secondary-font-family;
+  @include rem( font-size, 20px );
+
+  @media only screen and (max-width: 890px) {
+    @include rem( font-size, 18px );
+  }
+}

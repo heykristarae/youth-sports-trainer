@@ -1,0 +1,61 @@
+//
+// Resources button
+///////////////////
+
+body.fl-builder .fl-builder-content .about-resource-row {
+
+  a.fl-button {
+    border: 1px solid $white;
+    @include rem(font-size, 34px);
+    font-weight: 400;
+    line-height: 0.95;
+    text-transform: uppercase;
+    width: 283px;
+    max-width: 100%;
+
+    @media only screen and (max-width: 1060px) {
+      @include rem(font-size, 30px);
+      max-width: 90%;
+    }
+
+    @media only screen and (max-width: 600px) {
+      @include rem(font-size, 24px);
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $dark-blue;
+    }
+
+    span {
+      color: $white;
+    }
+  }
+
+  .sports-specialization a.fl-button {
+    padding: 6px 5px;
+    width: 410px;
+    max-width: 100%;
+
+    @media only screen and (max-width: 1060px) {
+      width: 370px;
+    }
+
+    @media only screen and (max-width: 930px) {
+      @include rem(font-size, 26px);
+      width: 300px;
+      max-width: 90%;
+    }
+
+    @media only screen and (max-width: 350px) {
+      @include rem(font-size, 24px);
+    }
+  }
+}
+
+.about-resource-row .fl-module-button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

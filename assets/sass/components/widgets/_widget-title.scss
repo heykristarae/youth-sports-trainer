@@ -1,0 +1,19 @@
+//
+// Widget title
+//===================
+
+.sidebar .widget-title a {
+  color: $sidebar__widgetTitle--link-color;
+  text-decoration: none;
+}
+
+.widget-title {
+  color: $dark-blue;
+  font-family: $secondary-font-family;
+  @include rem( font-size, $widget-title--font-size );
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}

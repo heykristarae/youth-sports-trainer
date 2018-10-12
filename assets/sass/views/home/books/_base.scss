@@ -1,0 +1,31 @@
+//
+// Home books section
+/////////////////////////
+
+.home-book-row {
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 20px;
+  }
+
+  .fl-row-content-wrap .fl-row-content > .fl-col-group {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+}
+
+.home-book-row.home-soccer .fl-row-content-wrap .fl-row-content > .fl-col-group {
+  width: 1761px;
+}
+
+.home-book-row.home-basketball .fl-row-content-wrap .fl-row-content > .fl-col-group {
+  width: 1670px;
+}
+
+.home-book-row.home-baseball .fl-row-content-wrap .fl-row-content > .fl-col-group {
+  width: 1725px;
+}
+
+.home-book-row.home-youth-athletes .fl-row-content-wrap .fl-row-content > .fl-col-group {
+  width: 1586px;
+}

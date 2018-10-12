@@ -1,0 +1,38 @@
+/* # Footer Menu
+---------------------------------------------------------------------------------------------------- */
+
+.footer-widgets .menu {
+  display: inline-block;
+
+  @media only screen and (max-width: 600px) {
+    @include rem( font-size, 14px );
+  }
+
+  @media only screen and (max-width: 500px) {
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+
+  li {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    position: relative;
+    text-align: center;
+
+    @media only screen and (max-width: 500px) {
+      margin-bottom: 5px;
+      padding-bottom: 0;
+    }
+  }
+
+  li:not(:last-child):before {
+    content: '/';
+    position: absolute;
+    right: -13px;
+  }
+
+  a {
+    text-transform: none;
+  }
+}

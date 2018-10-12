@@ -1,0 +1,12 @@
+//
+// Comment submit button
+//////////////////////////
+
+.comment-respond input[type="submit"] {
+  background-color: $black;
+  color: #d2d1d1;
+  @include rem( font-size, 16px );
+  font-weight: 400;
+  padding: 3px 13px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,31 @@
+//
+// Images
+///////////
+
+.home-book-row .cutout {
+  p {
+    margin-bottom: 0;
+  }
+
+  img {
+    margin-bottom: 0;
+
+    &.hover {
+      display: none;
+    }
+  }
+}
+
+.home-book-row:hover {
+  .cutout img {
+    display: none;
+
+    &.hover {
+      display: block;
+    }
+  }
+}
+
+.fl-builder-edit .home-book-row:hover .cutout img {
+  display: block;
+}

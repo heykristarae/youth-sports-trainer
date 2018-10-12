@@ -1,0 +1,81 @@
+/* ## Accessible Menu
+--------------------------------------------- */
+
+.menu .menu-item {
+  &:focus {
+    position: static;
+  }
+
+  > a:focus + ul.sub-menu,
+  &.sfHover > ul.sub-menu {
+    left: auto;
+    opacity: 1;
+  }
+}
+
+.sub-menu-toggle,
+.menu-toggle {
+  display: none;
+  visibility: hidden;
+  background-color: $toggle--background-color;
+  color: $toggle--color;
+  font-family: $secondary-font-family;
+  font-weight: 400;
+  text-transform: uppercase;
+  @include rem( font-size, 18px );
+
+  @media only screen and (max-width: $medium-screen) {
+    border-width: 0;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: $medium-screen) {
+
+  .menu-toggle {
+    border-top: 1px solid $toggle--border-color;
+    line-height: 20px;
+    position: relative;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+
+    .site-header &  {
+      border: 0;
+    }
+
+    &:before,
+    &.activated:before {
+      margin-right: 10px;
+      text-rendering: auto;
+      transform: translate(0, 0);
+    }
+  }
+
+  .sub-menu-toggle {
+    float: right;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+
+    &:before {
+      display: inline-block;
+      text-rendering: auto;
+      transform: translate(0, 0);
+    }
+
+    &.activated:before {
+      content: "\f142";
+    }
+
+    &:hover, &:focus {
+      border-width: 0;
+    }
+  }
+}

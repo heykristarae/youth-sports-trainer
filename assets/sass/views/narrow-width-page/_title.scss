@@ -1,0 +1,19 @@
+//
+// Page title
+//////////////
+
+.narrow-width .entry-title {
+  font-weight: 600;
+  @include rem( font-size, 34px );
+  border-bottom: 1px solid #2e8599;
+  padding-bottom: 20px;
+  margin-bottom: 35px;
+
+  @media only screen and (max-width: 600px) {
+    @include rem( font-size, 32px );
+  }
+
+  @media only screen and (max-width: 450px) {
+    @include rem( font-size, 30px );
+  }
+}

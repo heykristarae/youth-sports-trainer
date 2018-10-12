@@ -1,0 +1,24 @@
+//
+// Homepage blog posts
+/////////////////////////
+
+.home-posts {
+  .fl-post-grid {
+    height: auto !important;
+    width: 1203px !important;
+    max-width: 100% !important;
+  }
+
+  .fl-post-grid-post.post {
+    float: left;
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    width: 33.3%;
+
+    @media only screen and (max-width: 768px) {
+      float: none;
+      width: 100%;
+    }
+  }
+}

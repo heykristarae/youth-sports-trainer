@@ -1,0 +1,31 @@
+//
+// Blue background section
+///////////////////////////
+
+.about-blue-banner {
+  background-color: $light-blue;
+  display: table;
+  font-family: $secondary-font-family;
+  @include rem( font-size, 30px );
+  line-height: 1.3;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -17px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 99;
+
+  @media only screen and (max-width: 600px) {
+    @include rem( font-size, 24px );
+  }
+
+  @media only screen and (max-width: 450px) {
+    @include rem( font-size, 18px );
+    margin-bottom: -11px;
+  }
+
+  @media only screen and (max-width: 350px) {
+    @include rem( font-size, 15px );
+    margin-bottom: -19px;
+  }
+}

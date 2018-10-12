@@ -1,0 +1,43 @@
+//
+// Dimension variables
+//=======================
+
+$base--width: 1140px;
+$gutter: 40px;
+
+// Max widths
+$max-width: $base--width;
+$max-width-larger-screen: 1140px;
+$max-width-large-screen: 960px;
+$max-width-medium-screen: 800px;
+$max-width-small-screen: 600px;
+
+// Header
+$title-area--width: auto;
+$header-image--min-height: 75px;
+$headerRight--width: 800px;
+$headerRight--width-large-screen: 620px;
+
+// Content Widths
+$content--width: 820px;
+$content--width-larger-screen: 820px;
+$content--width-large-screen: 720px;
+$content--width-medium-screen: 600px;
+$content-both-sidebars--width: 660px;
+$content-both-sidebars--width-larger-screen: 580px;
+$content-both-sidebars--width-large-screen: 400px;
+$content-both-sidebars-wrap--width: 1060px;
+$content-both-sidebars-wrap--width-larger-screen: 920px;
+$content-both-sidebars-wrap--width-large-screen: 740px;
+
+$primary-sidebar--width: 317px;
+$primarySidebar--width-larger-screen: 300px;
+$secondary-sidebar--width: 180px;
+
+  // Footer
+$footer-widgets--width: 343px;
+$footer-widgets--width-large-screen: 300px;
+
+$footer-widgets-header--enews--width: 975px;
+$footer-widgets-header--enews--p--width: 470px;
+$footer-widgets-header--enews--fields--mobile-width: 100%;

@@ -1,0 +1,105 @@
+/* # Footer Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.footer-widgets {
+  background-color: $footer-widgets--background-color;
+  font-family: $secondary-font-family;
+  font-size: $footer-widgets--font-size;
+  font-weight: 400;
+  clear: both;
+  padding: 35px 0 25px;
+
+  .wrap {
+    @media only screen and (max-width: $medium-screen) {
+      width: 100%;
+      max-width: none;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+
+  .widget-title {
+    color: $black;
+    font-family: $secondary-font-family;
+    font-weight: 600;
+    @include rem( font-size, 21px );
+    font-style: normal;
+    margin-bottom: 15px;
+    text-transform: none;
+  }
+
+  a {
+    color: $footer-widgets--link-color;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+      color: $footer-widgets--link-hover-color;
+    }
+  }
+}
+
+.footer-widgets-1 {
+  width: 17%;
+
+  @media only screen and (max-width: $small-screen) {
+    width: 18%;
+  }
+
+  @media only screen and (max-width: 900px) {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  img {
+    width: 135px;
+  }
+}
+
+.footer-widgets-1,
+.footer-widgets-2 {
+  float: left;
+
+  @media only screen and (max-width: $medium-screen) {
+    margin: 0 auto 40px;
+  }
+}
+
+.footer-widgets-2 {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 66%;
+
+  @media only screen and (max-width: $medium-screen) {
+    width: 60%;
+  }
+
+  @media only screen and (max-width: 900px) {
+    margin-bottom: 0;
+  }
+
+  .widget {
+    margin-bottom: 0;
+  }
+}
+
+.footer-widgets-3 {
+  float: right;
+  text-align: center;
+  width: 17%;
+
+  @media only screen and (max-width: $medium-screen) {
+    width: 22%;
+  }
+}
+
+.footer-widgets-1,
+.footer-widgets-2,
+.footer-widgets-3 {
+
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+  }
+}

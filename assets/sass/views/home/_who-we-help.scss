@@ -1,0 +1,45 @@
+//
+// Who we help section
+//////////////////////////////////
+
+.home-who-we-help {
+
+  h2.fl-heading {
+    @include rem( font-size, 48px );
+
+    @media only screen and (max-width: 600px) {
+      @include rem( font-size, 34px );
+    }
+
+    @media only screen and (max-width: 450px) {
+      @include rem( font-size, 30px );
+    }
+  }
+
+}
+
+.home-who-we-help-columns.linked-columns {
+
+  h3.fl-heading {
+    background-color: transparent;
+    @include rem( font-size, 35px );
+    width: 345px;
+    max-width: 90%;
+
+    @media only screen and (max-width: 768px) {
+      @include rem( font-size, 32px );
+    }
+
+    @media only screen and (max-width: 450px) {
+      @include rem( font-size, 28px );
+    }
+
+    &:before {
+      width: 345px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

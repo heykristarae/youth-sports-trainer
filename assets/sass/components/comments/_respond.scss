@@ -1,0 +1,102 @@
+//
+// Comment respond
+//==========================
+
+.comment-respond {
+
+  input[type="email"],
+  input[type="text"],
+  input[type="url"] {
+    font-size: 12px;
+    padding: 5px 8px;
+    width: 214px;
+    max-width: 100%;
+
+    &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+      color: $black;
+      opacity: 1;
+    }
+    &::-moz-placeholder { /* Firefox 19+ */
+      color: $black;
+      opacity: 1;
+    }
+    &:-ms-input-placeholder { /* IE 10+ */
+      color: $black;
+      opacity: 1;
+    }
+    &:-moz-placeholder { /* Firefox 18- */
+      color: $black;
+      opacity: 1;
+    }
+  }
+
+  textarea {
+    padding: 5px 8px;
+    width: 648px;
+    max-width: 100%;
+  }
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  label {
+    display: none;
+  }
+
+  .logged-in-as {
+    display: none;
+  }
+
+  .comment-notes {
+    display: none;
+  }
+
+  @media only screen and (max-width: 860px) {
+    padding: 30px;
+    margin-bottom: 5%;
+  }
+}
+
+h3.comment-reply-title {
+  margin-bottom: 18px;
+
+  .comments-black-background {
+    background-color: $black;
+    color: #d2d1d1;
+    display: inline-block;
+    font-family: $secondary-font-family;
+    @include rem( font-size, 16px );
+    font-style: normal;
+    font-weight: 400;
+    padding: 4px 12px;
+    text-transform: uppercase;
+
+    @media only screen and (max-width: 450px) {
+      @include rem( font-size, 14px );
+    }
+  }
+
+  .comments-line {
+    color: #d2d1d1;
+    @include rem( font-size, 17px );
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 4px;
+
+    @media only screen and (max-width: 450px) {
+      @include rem( font-size, 14px );
+    }
+  }
+
+  .leave-comment {
+    color: $dark-blue;
+    @include rem( font-size, 17px );
+    font-weight: bold;
+
+    @media only screen and (max-width: 450px) {
+      @include rem( font-size, 14px );
+    }
+  }
+}

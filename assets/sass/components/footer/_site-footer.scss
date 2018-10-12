@@ -1,0 +1,31 @@
+/* # Site Footer
+---------------------------------------------------------------------------------------------------- */
+
+.site-footer {
+  background-color: $site-footer--background-color;
+  color: $gray;
+  border-top: 1px solid $site-footer--border-color;
+  font-family: $secondary-font-family;
+  @include rem( font-size, $site-footer--font-size );
+  font-weight: 600;
+  padding: 0 0 30px;
+  text-align: center;
+
+  @media only screen and (max-width: 600px) {
+    @include rem( font-size, 16px );
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: $site-footer--link-color;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $site-footer--link-hover-color;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+//
+// About page hero
+//////////////////////
+
+@media only screen and (max-width: 768px) {
+  .about-resource-row {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-hero .fl-row-content-wrap {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .about-resources-text-col.fl-col {
+    width: 600px !important;
+    max-width: 100% !important;
+  }
+}

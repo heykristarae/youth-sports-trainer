@@ -1,0 +1,28 @@
+//
+// Homepage base styles
+/////////////////////////
+
+.home-large-bold-text {
+  font-family: $secondary-font-family;
+  @include rem( font-size, 32px );
+  font-weight: bold;
+  line-height: 1.2;
+
+  @media only screen and (max-width: 768px) {
+    @include rem( font-size, 30px );
+  }
+
+  @media only screen and (max-width: 450px) {
+    @include rem( font-size, 28px );
+  }
+}
+
+.home-medium-width-row.fl-row-fixed-width {
+  width: 900px !important;
+  max-width: 100% !important;
+}
+
+.home-small-width-row.fl-row-fixed-width {
+  width: 860px !important;
+  max-width: 100% !important;
+}
